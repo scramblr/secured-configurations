@@ -1,0 +1,42 @@
+Due to an apparent limitation or bug in NoScript, 
+you MUST paste the JSON below into the DEBUG window
+located inside of the NoScript configuration under "Advanced".
+{
+  "DEFAULT": {
+    "capabilities": [
+      "frame",
+      "noscript"
+    ],
+    "temp": false
+  },
+  "TRUSTED": {
+    "capabilities": [
+      "fetch",
+      "font",
+      "frame",
+      "media",
+      "object",
+      "other",
+      "script",
+      "webgl",
+      "ping",
+      "lan",
+      "noscript",
+      "unchecked_css"
+    ],
+    "temp": false
+  },
+  "UNTRUSTED": {
+    "capabilities": [],
+    "temp": false
+  },
+  "sites": {
+    "trusted": [],
+    "untrusted": [],
+    "custom": {},
+    "temp": []
+  },
+  "enforced": true,
+  "autoAllowTop": false
+}
+
