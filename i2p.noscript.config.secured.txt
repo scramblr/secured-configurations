@@ -1,0 +1,41 @@
+# Safe(r) NoScript Configuration via github.com/scramblr/secured-configurations/
+{
+  "DEFAULT": {
+    "capabilities": [
+      "frame",
+      "noscript"
+    ],
+    "temp": false
+  },
+  "TRUSTED": {
+    "capabilities": [
+      "script",
+      "object",
+      "media",
+      "frame",
+      "font",
+      "webgl",
+      "fetch",
+      "ping",
+      "noscript",
+      "unchecked_css",
+      "lan",
+      "other"
+    ],
+    "temp": false
+  },
+  "UNTRUSTED": {
+    "capabilities": [
+      "noscript"
+    ],
+    "temp": false
+  },
+  "sites": {
+    "trusted": [],
+    "untrusted": [],
+    "custom": {},
+    "temp": []
+  },
+  "enforced": true,
+  "autoAllowTop": false
+}
